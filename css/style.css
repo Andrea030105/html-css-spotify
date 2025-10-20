@@ -3,3 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container-vw {
+    width: calc(100vw - 300px);
+    float: right;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-100 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header {
+    background-color: red;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    height: 850px;
+}
+
+.bg-purple {
+    background-color: purple;
+    height: calc(100vh - 100px);
+    width: 300px;
+}
+
+.bg-green {
+    background-color: green;
+    height: 100px;
+}
