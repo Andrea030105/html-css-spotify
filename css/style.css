@@ -111,6 +111,7 @@ h3 {
     color: white;
     text-decoration: underline #a1ff51 4px;
     text-underline-offset: 6px;
+    cursor: pointer;
 }
 
 .col-100-play {
@@ -144,6 +145,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 /* SIDE BAR */
@@ -191,8 +193,21 @@ h3 {
     color: #56595F;
 }
 
-#color-white {
+.main-list li:hover {
     color: white;
+    cursor: pointer;
+}
+
+.bar-green {
+    width: 4px;
+    height: 30px;
+    background-color: #a1ff51;
+    margin-right: 1rem;
+}
+
+#home {
+    color: white;
+    margin: 0;
 }
 
 .side-bar h2 {
@@ -215,6 +230,53 @@ h3 {
 .scroll-playlist {
     height: 150px;
     overflow-y: auto;
+}
+
+.install-app {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    color: #56595F;
+}
+
+.install-app:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.install-app img {
+    width: 30px;
+    margin-right: 1rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+    margin: 0 1rem;
+}
+
+.profile img {
+    width: 20px;
+}
+
+.profile h2 {
+    text-transform: capitalize;
+}
+
+.img-round {
+    height: 40px;
+    width: 40px;
+    background-color: #56595F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.side-bar .col-30 hr {
+    width: 80%;
+    margin: 0 1rem;
 }
 
 /* FOOTER */
