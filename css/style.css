@@ -162,7 +162,11 @@ h3 {
 /* SIDE BAR */
 
 .bg-side-bar {
-    height: 100%;
+    height: 100%
+}
+
+.sm-side-bar {
+    display: none;
 }
 
 .side-bar {
