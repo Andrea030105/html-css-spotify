@@ -361,3 +361,16 @@ footer .col-30 {
     margin: 0 1rem;
     border-radius: 10px;
 }
+
+.volume-bar {
+    height: 100px;
+    justify-content: flex-end;
+}
+
+.volume-bar i {
+    margin: 0 0.5rem;
+}
+
+.volume-bar hr {
+    width: 20%;
+}
