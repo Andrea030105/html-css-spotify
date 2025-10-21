@@ -60,6 +60,16 @@ header .col-100 {
     justify-content: end;
 }
 
+header button {
+    text-transform: uppercase;
+    background-color: #000000;
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
 /* MAIN  */
 
 main {
