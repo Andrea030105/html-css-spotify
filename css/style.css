@@ -288,3 +288,44 @@ footer {
     position: fixed;
     z-index: 1;
 }
+
+footer .col-30 {
+    width: calc(100% / 3);
+}
+
+.container-first {
+    display: flex;
+}
+
+.img-song {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-song img {
+    width: 80%;
+}
+
+.name-song {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #56595F;
+}
+
+.name-song h2 {
+    color: white;
+}
+
+.heart-folder {
+    display: flex;
+    align-items: center;
+    color: #56595F;
+}
+
+.heart-folder i {
+    margin: 0 0.5rem;
+}
