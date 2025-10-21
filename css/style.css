@@ -161,6 +161,10 @@ h3 {
 
 /* SIDE BAR */
 
+.bg-side-bar {
+    height: 100%;
+}
+
 .side-bar {
     background-color: #000000;
     height: calc(100vh - 100px);
