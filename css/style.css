@@ -329,3 +329,35 @@ footer .col-30 {
 .heart-folder i {
     margin: 0 0.5rem;
 }
+
+.comand-icon {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.fa-circle-play {
+    font-size: 1.8rem;
+}
+
+.comand-icon i {
+    margin: 0 1rem;
+}
+
+.control-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.control-bar hr {
+    width: 70%;
+    height: 5px;
+    background-color: #56595F;
+    margin: 0 1rem;
+    border-radius: 10px;
+}
