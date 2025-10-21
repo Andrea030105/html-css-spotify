@@ -1,6 +1,25 @@
-/* .col-100-play .row {
-    flex-wrap: wrap;
-} */
+@media screen and (max-width: 768px) {
+    .col-100-play .row {
+        flex-wrap: wrap;
+    }
+
+    .col-16 {
+        width: calc(100% / 2);
+    }
+
+    .col-100-menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col-100-menu li {
+        margin: .5rem;
+    }
+
+    .col-100-menu {
+        font-size: 1rem;
+    }
+}
 
 @media screen and (max-width: 576px) {
     .bg-side-bar {
@@ -30,5 +49,9 @@
 
     .img-round {
         margin: .3rem;
+    }
+
+    .col-100-menu ul {
+        margin: 0 7rem;
     }
 }

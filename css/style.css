@@ -20,6 +20,10 @@
     color: white;
 }
 
+button {
+    cursor: pointer;
+}
+
 .cl-gray {
     color: #56595F;
 }
