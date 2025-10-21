@@ -10,9 +10,18 @@
 .container-vw {
     width: calc(100vw - 250px);
     float: right;
+    background-color: #141921;
 }
 
 /* UTILITY */
+
+.cl-white {
+    color: white;
+}
+
+.cl-gray {
+    color: #56595F;
+}
 
 .row {
     width: 100%;
@@ -49,7 +58,7 @@
 /* HEADER */
 
 header {
-    background-color: #0d1118;
+    background-color: transparent;
     height: 80px;
     display: flex;
     align-items: center;
@@ -63,7 +72,6 @@ header .col-100 {
 header button {
     text-transform: uppercase;
     background-color: #000000;
-    color: white;
     border: 1px white solid;
     border-radius: 20px;
     padding: 0.5rem 1rem;
@@ -75,8 +83,6 @@ header button {
 main {
     overflow-y: auto;
     height: calc(100vh - 150px);
-    background-color: #141921;
-    color: white;
 }
 
 main p {
@@ -152,7 +158,6 @@ h3 {
 
 .side-bar {
     background-color: #000000;
-    color: white;
     height: calc(100vh - 100px);
     width: 250px;
 }
@@ -183,7 +188,6 @@ h3 {
 .main-list img {
     width: 2rem;
     margin-right: 0.8rem;
-    color: #56595F;
 }
 
 .main-list li {
@@ -206,7 +210,6 @@ h3 {
 }
 
 #home {
-    color: white;
     margin: 0;
 }
 
@@ -236,7 +239,6 @@ h3 {
     display: flex;
     align-items: center;
     margin: 0 1rem;
-    color: #56595F;
 }
 
 .install-app:hover {
@@ -313,17 +315,11 @@ footer .col-30 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #56595F;
-}
-
-.name-song h2 {
-    color: white;
 }
 
 .heart-folder {
     display: flex;
     align-items: center;
-    color: #56595F;
 }
 
 .heart-folder i {
@@ -335,7 +331,6 @@ footer .col-30 {
     justify-content: center;
     margin: 1rem;
     font-size: 1.5rem;
-    color: white;
 }
 
 .fa-circle-play {
@@ -350,7 +345,6 @@ footer .col-30 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     font-weight: bold;
 }
 
