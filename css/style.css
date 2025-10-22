@@ -20,6 +20,10 @@
     color: white;
 }
 
+#cl-green {
+    color: #a1ff51;
+}
+
 button {
     cursor: pointer;
 }

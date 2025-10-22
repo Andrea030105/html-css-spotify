@@ -19,6 +19,24 @@
     .col-100-menu {
         font-size: 1rem;
     }
+
+    .name-song {
+        font-size: .7rem;
+    }
+
+    .heart-folder {
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 1rem;
+    }
+
+    .comand-icon {
+        font-size: 1rem;
+    }
+
+    .fa-circle-play {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -53,5 +71,9 @@
 
     .col-100-menu ul {
         margin: 0 7rem;
+    }
+
+    .name-song {
+        display: none;
     }
 }
