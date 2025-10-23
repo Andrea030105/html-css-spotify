@@ -27,15 +27,18 @@
     .heart-folder {
         flex-direction: column;
         justify-content: space-around;
-        margin-left: 1rem;
     }
 
     .comand-icon {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
-    .fa-circle-play {
-        font-size: 1.5rem;
+    .comand-icon i {
+        margin: 0 .6rem;
+    }
+
+    .img-song img {
+        width: 60%;
     }
 }
 
@@ -73,7 +76,16 @@
         margin: 0 7rem;
     }
 
-    .name-song {
+    .img-song {
         display: none;
+    }
+
+    .container-right {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .container-first {
+        margin-left: 1rem;
     }
 }

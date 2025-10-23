@@ -318,6 +318,7 @@ footer .col-30 {
 
 .container-first {
     display: flex;
+    height: 100%;
 }
 
 .img-song {
@@ -347,15 +348,17 @@ footer .col-30 {
     margin: 0 0.5rem;
 }
 
+.col-player {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .comand-icon {
     display: flex;
     justify-content: center;
     margin: 1rem;
     font-size: 1.5rem;
-}
-
-.fa-circle-play {
-    font-size: 1.8rem;
 }
 
 .comand-icon i {
@@ -369,23 +372,59 @@ footer .col-30 {
     font-weight: bold;
 }
 
-.control-bar hr {
-    width: 70%;
-    height: 5px;
-    background-color: #56595F;
-    margin: 0 1rem;
-    border-radius: 10px;
+.volume-bar {
+    width: 50%;
+    display: flex;
+    align-items: center;
 }
 
-.volume-bar {
+.progress-bar {
+    width: 70%;
+    height: 5px;
+    background-color: rgba(255, 255, 255, .2);
+    margin: 0 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.progress-volume-bar {
+    width: 50%;
+    margin: 0;
+}
+
+.played-bar {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .75);
+    position: relative;
+}
+
+.progress-bar:hover .played-bar {
+    background-color: #a1ff51;
+}
+
+.progress-bar-cursor {
+    display: none;
+}
+
+.progress-bar:hover .progress-bar-cursor {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.container-right {
     height: 100px;
     justify-content: flex-end;
 }
 
-.volume-bar i {
+.container-right i {
     margin: 0 0.5rem;
-}
-
-.volume-bar hr {
-    width: 20%;
 }
