@@ -8,8 +8,7 @@
     }
 
     .col-100-menu ul {
-        flex-wrap: wrap;
-        justify-content: center;
+        margin: 0 3rem;
     }
 
     .col-100-menu li {
@@ -70,10 +69,6 @@
 
     .img-round {
         margin: .3rem;
-    }
-
-    .col-100-menu ul {
-        margin: 0 7rem;
     }
 
     .img-song {
